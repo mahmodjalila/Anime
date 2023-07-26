@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 97%;
+    margin: auto;
+    height: 2px;
+}
+/* start products */
+.btn-all select{
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.product-pagination{
+    margin-top: 25px ;
+}
+.product-pagination a{
+    display: inline-block;
+    font-size: 15px;
+    color: #b7b7b7;
+    font-weight: 600;
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    line-height: 48px;
+    text-align: center;
+}
+.product-pagination a:hover{
+    color: white;
+}
+.product-pagination .active{
+    border-radius: 50%;
+    border: 1px solid ;
+}
+/* end products */
+/* start anime details */
+.anime-details-title h3{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.anime-details-title span{
+    font-size: 15px;
+    display: block;
+    color: #b7b7b7;
+}
+.anime-details-rating{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.rating a{
+    color: #e89f12;
+    font-size: 24px;
+}
+.anime-details-rating span{
+    color: #b7b7b7;
+    font-size: 18px;
+}
+.anime-details-widget {
+    margin-top: 25px;
+}
+.anime-details-widget ul li{
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    position: relative;
+    padding-left: 18px;
+}
+.anime-details-widget ul li span{
+    display: inline-block;
+    width: 100px;
+    color: #b7b7b7;
+}
+.anime-details-widget ul li::before{
+    position: absolute;
+    width: 6px ;
+    height: 6px;
+    top: 12px;
+    left:0;
+    background-color: #b7b7b7;
+    content: "";
+}
+.anime-details-text p{
+    color: #b7b7b7;
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.anime-details-btn .follow-btn{
+    font-size: 13px;
+    color: #ffffff;
+    background: red;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    border-radius: 4px;
+    margin-right: 11px;
+}
+.anime-details-btn .watch-btn span{
+    font-size: 13px;
+    color: #ffffff;
+    background: red;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    border-radius: 4px 0 0 4px;
+    margin-right: 1px;
+}
+.anime-details-btn .watch-btn svg{
+    position: absolute;
+    margin-left: 5px;
+    font-size: 20px;
+    display: inline-block;
+    background: red;
+    padding: 11px 5px 16px 8px;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+}
+.details-item-review{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.details-item-review-pic{
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+.details-item-review-pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.details-item-review-pic::before{
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: -30px;
+    border-top: 16px solid transparent;
+    border-left: 16px solid #1d1e39;
+    transform: rotate(45deg);
+}
+.details-item-review-text{
+    overflow: hidden;
+    border-radius: 10px ;
+    background-color: #1d1e39;
+    padding: 18px 30px 0px 20px;
+}
+.details-item-review-text h6{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.details-item-review-text h6 span{
+    color: #b7b7b7;
+    font-weight: 500;
+}
+.details-item-review-text p{
+    color: #b7b7b7;
+    padding:2px 15px;
+}
+.anime-details-form{
+    margin-top: 60px;
+}
+.anime-details-form textarea{
+    width: 100%;
+    height: 110px;
+    color: #b7b7b7;
+    font-size: 17px;
+    padding: 12px 20px 0 ;
+    border: none;
+    outline: none;
+    border-radius: 5px ;
+    margin-bottom: 22px;
+    resize: none;
+}
+.anime-details-form button{
+    letter-spacing: 2px ;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px ;
+    font-size: 11px;
+}
+.details .section-title .titlep{
+    font-weight: 600;
+}
+/* end anime details */
+/* start video */
+.video-play video{
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+.episodes a{
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+.episodes a:hover{
+    color: black;
+    background-color: white;
+}
+/* end video */
+
+/* .....................................start blog details..................... */
+.blog-details-title h6{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.blog-details-title h6 span{
+    color: #b7b7b7;
+    font-weight: 400;
+    text-transform: none;
+}
+.blog-details-title h2{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 38px;
+}
+.blog-details-social a{
+    display: inline-block;
+    color: #ffffff;
+    padding: 16px 35px 14px 20px;
+    border-radius: 3px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+.blog-details-social a.facebook{
+    background-color: #3b5998;
+}
+.blog-details-social a.pinterest{
+    background-color: #ca2027;
+}
+.blog-details-social a.linkedin{
+    background-color: #0372b1;
+}
+.blog-details-social a.twitter{
+    background-color: #39a1f2;
+}
+.blog-details-text p{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 30px;
+}
+.blog-details-item-text h4{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.blog-details-item-text img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.blog-details-item-text p{
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.blog-details-tags{
+    margin-bottom: 60px;
+}
+.blog-details-tags a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #b7b7b7;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.blog-details-btns{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0 15px;
+    margin-bottom: 65px;
+}
+.blog-btn-item{
+    margin-bottom: 20px;
+}
+.blog-btn-item a{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+.blog-btn-item a span{
+    display: inline-block;
+    position: relative;
+    font-size:25px;
+    top: -6px;
+    color: #b7b7b7;
+    width: 30px;
+}
+.blog-btn-item a span i{
+    position: absolute;
+    bottom: -13px;
+}
+.blog-details-comment{
+    padding-bottom: 30px ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.blog-comment-item{
+    margin-bottom: 40px;
+}
+.blog-comment-item-pic{
+    margin-right: 40px;
+}
+.blog-comment-text{
+    overflow: hidden;
+}
+.blog-comment-text span{
+    margin-bottom: 12px ;
+    color: #b7b7b7;
+    font-weight: 400;
+}
+.blog-comment-text h5{
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.blog-comment-text p{
+    color: #b7b7b7;
+    line-height: 23px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.blog-comment-text a{
+    display: inline-block;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 2px;
+    padding: 6px 20px;
+    font-size: 17px;
+    border-radius: 2px;
+    margin-right: 15px;
+    transition: all .3s;
+}
+.blog-comment-text a:hover{
+    color: black;
+    background-color: #ffffff;
+}
+.blog-comment-item-center{
+    padding-left: 150px;
+}
+.blog--details-form textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    padding: 6px 10px;
+    outline: 0;
+}
+.blog--details-form .form-btn{
+    color: #ffffff;
+    background-color: #ca2027;
+    border: 0;
+    outline: 0;
+    padding:10px 15px ;
+    margin-top:25px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+} 
+/* ......................blog................ */
+.normal-breadcrumb{
+    height: 300px;
+    position: relative;
+}
+.normal-breadcrumb img{
+    width: 100%;
+    height: 100%;
+}
+.normal-breadcrumb-text{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.normal-breadcrumb-text h2{
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.normal-breadcrumb-text p{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.blog{
+    margin: 80px 0;
+}
+.parent{
+    overflow: hidden;
+}
+.blog-item:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 35px 35px black inset;
+}
+.small-blog:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px 20px black inset;
+}
+.blog-item{
+    height: 580px;
+    position: relative;
+    margin-left: -6px;
+    margin-right: -6px;
+    margin-bottom: 10px;
+    transition: all .7s;
+    background-size: cover;
+}
+.blog-item-text{
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    text-align: center;
+    width: 100%;
+    padding: 0 105px;
+}
+.blog-item-text p{
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.blog-item-text p svg{
+    color: #e53637;
+    margin-right: 5px;
+}
+.blog-item-text h4{
+    font-size: 24px;
+}
+.blog-item-text h4 a{
+    color: #ffffff;
+    line-height: 34px;
+}
+.small-blog{
+    height: 280px;
+}
+.small-blog .blog-item-text{
+    position: absolute;
+    padding: 0 30px;
+    bottom: 0%;
+}
+.small-blog .blog-item-text p{
+    margin-bottom: 5px;
+}
+.small-blog .blog-item-text h4{
+    font-size: 19px;
+}
+/* ............................sign up........................... */
+.signup{
+    padding: 130px 0 150px;
+}
+.login-form {
+    position: relative;
+    padding-left: 145px;
+}
+.login-form h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom:30px ;
+    font-family: "Oswald", sans-serif;
+}
+.input-item{
+    position: relative;
+    width: 370px;
+    margin-bottom: 20px;
+}
+.input-item::before{
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    height: 30px;
+    width: 1px;
+    background: #b7b7b7;
+}
+.input-item input{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 0;
+    outline: 0;
+    padding-left: 76px;
+}
+.input-item span{
+    color: #b7b7b7;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+.form-btn{
+    color: #ffffff;
+    background-color: #ca2027;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.login-form::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.35);
+    right: -35px;
+    top: -20px;
+}
+.login-form h5{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 36px;
+}
+.login-form h5 a{
+    color: #e53637;
+    font-weight: 700;
+}
+.login-social-links{
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+.login-social-links h3{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 30px;
+}
+.login-social-links li{
+    margin-bottom: 15px;
+}
+.login-social-links a{
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 460px;
+    padding: 14px 0;
+    position: relative;
+}
+.login-social-links a svg{
+    font-size: 20px;
+    position: absolute;
+    top: 14px;
+    left: 30px;
+}
+.login-social-links a.facebook{
+    background-color: #4267b2;
+}
+.login-social-links a.google{
+    background-color: #ff4343;
+}
+.login-social-links a.twitter{
+    background-color: #1da1f2;
+}
+/* ................login............... */
+.login{
+    padding: 130px 0 ;
+}
+.login .login-form h5{
+    display: inline-block;
+    margin-left: 70px;
+}
+.login-register{
+    margin-left: 35px;
+    padding-left: 30px;
+}
+.login-register h3{
+    color: #ffffff;
+    font-weight: 700;
+    margin: 5px 10px 40px;
+}
+.login-register .form-btn{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 42px;
+    font-weight: bold;
+}
+.login .login-form::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.35);
+    right: -35px;
+    top: -20px;
+}
+.login-social{
+    padding-top:80px;
+}
+.login-social .login-social-links span{
+    color: #ffffff;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin:0 10px 30px 0;
+}
+.login-social .login-social-links{
+    margin-right: 20px;
+}
+/* .............................start contact............................ */
+.contact .content{
+    min-height: 70vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 15vh;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.content .check{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: green;
+}
+.content h1 , h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content span{
+    font-size: 20px;
+    position: relative;
+}
+.content span svg{
+    position: absolute;
+    left: -25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+/* media */
+@media (max-width: 991px) {
+    .login-form{
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+    .login-social-links{
+        padding-left: 0px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    .login-form{
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 768px){ 
+    .anime-details-form{
+        margin-bottom: 50px;
+    }
+}    
